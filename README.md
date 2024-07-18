@@ -7,10 +7,9 @@
 </p>
 
 <p align="center">
-Il sistema Pronuntia è un software che permette l’interazione tra i Logopedisti iscritti alla piattaforma e i pazienti a loro assegnati.
-
-Il/La dottore/dottoressa sarà in grado di comunicare e monitorare il paziente e allo stesso tempo quest’ultimo potrà comunicare con il suo medico.
-Nel caso dei bambini, ci sarà un tutore (Caregiver) che avrà la possibilità di supportare il conseguimento della terapia (controllo dello svolgimento degli esercizi, aiuto nell’utilizzo del sistema ecc.).
+The Pronuntia system is software that allows interaction between Speech Therapists registered on the platform and patients assigned to them.
+The doctor/doctor will be able to communicate and monitor the patient and at the same time the patient will be able to communicate with his or her doctor.
+In the case of children, there will be a Caregiver who will have the ability to support the achievement of therapy (monitoring the performance of exercises, help in using the system, etc.).
 </p>
 
 Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
@@ -245,22 +244,22 @@ You can see code coverage output under the `tests/_output` directory.
 
 
 
-# Requisiti del progetto
+## Project requirements.
 
-## Prerequisiti
+## Prerequisites.
 
 - **Yii 2.0**
-- **PHP** con estensioni attivate (PDO MySql) dal file `php.ini`
+- **PHP** with extensions enabled (PDO MySql) from the `php.ini` file.
 - **DBMS MySQL**
-- **Browser web** (Chromium)
-- **IDE** (opzionale)
+- **Web browser** (Chromium).
+- **IDE** (optional)
 
-## Istruzioni
+## Instructions.
 
-1. **Scaricare il compilatore di PHP**
-2. **Rimuovere il commento (;) dal file `php.ini` per l'estensione "PDOMySql"**
-3. **Installare Yii mediante Composer**
-4. **Importare sul proprio DBMS MySql il file `db.sql` presente nella cartella `db`**
-5. **Cambiare le opzioni di configurazione nel file `db.php` presente nella cartella `config`**
-6. **Aprire la cartella "Pronuntia-dev" nel proprio terminale (o attraverso un IDE) e digitare `php yii serve`**
-7. **Navigare a `localhost:8080` per visualizzare il sito**
+1. **Download the PHP compiler**
+2. **Remove the comment (;) from the `php.ini` file for the extension “PDOMySql ”**.
+3. **Install Yii using Composer**
+4. **Import to your MySql DBMS the `db.sql` file found in the `db` folder**.
+5. **Change the configuration options in the `db.php` file present in the `config` folder**.
+6. **Open the `pronuntia-dev` folder in your terminal (or through an IDE) and type `php yii serve`**
+7. **Navigate to `localhost:8080` to view the site**.
