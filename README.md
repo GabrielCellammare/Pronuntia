@@ -6,6 +6,13 @@
     <br>
 </p>
 
+<p align="center">
+Il sistema Pronuntia è un software che permette l’interazione tra i Logopedisti iscritti alla piattaforma e i pazienti a loro assegnati.
+
+Il/La dottore/dottoressa sarà in grado di comunicare e monitorare il paziente e allo stesso tempo quest’ultimo potrà comunicare con il suo medico.
+Nel caso dei bambini, ci sarà un tutore (Caregiver) che avrà la possibilità di supportare il conseguimento della terapia (controllo dello svolgimento degli esercizi, aiuto nell’utilizzo del sistema ecc.).
+</p>
+
 Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 rapidly creating small projects.
 
@@ -226,8 +233,34 @@ vendor/bin/codecept run --coverage --coverage-html --coverage-xml
 #collect coverage only for unit tests
 vendor/bin/codecept run unit --coverage --coverage-html --coverage-xml
 
+
+
+
+
 #collect coverage for unit and functional tests
 vendor/bin/codecept run functional,unit --coverage --coverage-html --coverage-xml
 ```
 
 You can see code coverage output under the `tests/_output` directory.
+
+
+
+# Requisiti del progetto
+
+## Prerequisiti
+
+- **Yii 2.0**
+- **PHP** con estensioni attivate (PDO MySql) dal file `php.ini`
+- **DBMS MySQL**
+- **Browser web** (Chromium)
+- **IDE** (opzionale)
+
+## Istruzioni
+
+1. **Scaricare il compilatore di PHP**
+2. **Rimuovere il commento (;) dal file `php.ini` per l'estensione "PDOMySql"**
+3. **Installare Yii mediante Composer**
+4. **Importare sul proprio DBMS MySql il file `db.sql` presente nella cartella `db`**
+5. **Cambiare le opzioni di configurazione nel file `db.php` presente nella cartella `config`**
+6. **Aprire la cartella "Pronuntia-dev" nel proprio terminale (o attraverso un IDE) e digitare `php yii serve`**
+7. **Navigare a `localhost:8080` per visualizzare il sito**
