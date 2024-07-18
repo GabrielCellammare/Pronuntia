@@ -1,9 +1,21 @@
+# Pronuntia
+
+## Bachelor's degree program "Computer Science and Technology for Software Production"
+
+### Result of exam for the subject "Software Engineering"
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
     <h1 align="center">Yii 2 Basic Project Template</h1>
     <br>
+</p>
+
+<p align="center">
+The Pronuntia system is software that allows interaction between Speech Therapists registered on the platform and patients assigned to them.
+The doctor/doctor will be able to communicate and monitor the patient and at the same time the patient will be able to communicate with his or her doctor.
+In the case of children, there will be a Caregiver who will have the ability to support the achievement of therapy (monitoring the performance of exercises, help in using the system, etc.).
 </p>
 
 Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
@@ -226,8 +238,34 @@ vendor/bin/codecept run --coverage --coverage-html --coverage-xml
 #collect coverage only for unit tests
 vendor/bin/codecept run unit --coverage --coverage-html --coverage-xml
 
+
+
+
+
 #collect coverage for unit and functional tests
 vendor/bin/codecept run functional,unit --coverage --coverage-html --coverage-xml
 ```
 
 You can see code coverage output under the `tests/_output` directory.
+
+
+
+## Project requirements.
+
+## Prerequisites.
+
+- **Yii 2.0**
+- **PHP** with extensions enabled (PDO MySql) from the `php.ini` file.
+- **DBMS MySQL**
+- **Web browser** (Chromium).
+- **IDE** (optional)
+
+## Instructions.
+
+1. **Download the PHP compiler**
+2. **Remove the comment (;) from the `php.ini` file for the extension “PDOMySql ”**.
+3. **Install Yii using Composer**
+4. **Import to your MySql DBMS the `db.sql` file found in the `db` folder**.
+5. **Change the configuration options in the `db.php` file present in the `config` folder**.
+6. **Open the `pronuntia-dev` folder in your terminal (or through an IDE) and type `php yii serve`**
+7. **Navigate to `localhost:8080` to view the site**.
