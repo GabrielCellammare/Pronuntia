@@ -1,3 +1,9 @@
+# Pronuntia
+
+## Bachelor's degree program "Computer Science and Technology for Software Production"
+
+### Result of exam for the subject "Software Engineering"
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
